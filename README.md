@@ -15,9 +15,11 @@ As it stands it gives us an idea of what factors are most likely correlated with
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ![Delivery_2 2](https://user-images.githubusercontent.com/96025706/163656686-e4ef6caa-102a-4cfc-b6ee-3327ce421053.png)
+
 Looking at overall variance depicted above we can see that all lots observed together mean the limit of 100 PSI of variance.
 
 ![Delivery_2 1](https://user-images.githubusercontent.com/96025706/163656690-d98714c4-c6ab-45a4-be3e-687819eb2114.png)
+
 However, looking at this chart we can see that while Lot 1 and 2 meet the requisite 100 PSI of variance lot 3 has greater than 100 PSI of variance.
 
 ## T-Tests on Suspension Coils
@@ -25,6 +27,7 @@ However, looking at this chart we can see that while Lot 1 and 2 meet the requis
 ![Delivery_3 2](https://user-images.githubusercontent.com/96025706/163656703-6fcfd0a0-9986-4cf7-a0f7-554005f5e9b9.png)
 ![Delivery_3 3](https://user-images.githubusercontent.com/96025706/163656704-7daa1774-6e97-4448-a77b-e6fa1179fba5.png)
 ![Delivery_3 4](https://user-images.githubusercontent.com/96025706/163656705-ce042ee3-4263-482c-82db-1dc1e4ad2e69.png)
+
 From the t tests above we can see that:
 1. We will reject the alternative in favor of the null hypothesis at the 5% level of significance for the mean of all lots versus the population mean of 1500
 2. We will reject the alternative in favor of the null hypothesis at the 5% level of significance for the mean of lots 1 and 2 versus the population mean of 1500
